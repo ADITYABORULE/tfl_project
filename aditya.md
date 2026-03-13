@@ -12,3 +12,10 @@
 | TC_PROJECT_08 | Verify mentor can remove student from project | Mentor logged in and student exists in project | 1. Call `DELETE /api/mentor/projects/{projectId}/students/{studentId}` | Student removed from project team |
 | TC_PROJECT_09 | Verify mentor can submit project feedback | Mentor logged in and project exists | 1. Send `POST /api/mentor/projects/{projectId}/feedback` with feedback JSON | Feedback stored successfully |
 | TC_PROJECT_10 | Verify mentor can schedule project meeting | Mentor logged in and project exists | 1. Send `POST /api/mentor/projects/{projectId}/meeting` with meeting date and time | Meeting scheduled successfully |
+
+
+
+
+Aditya
+
+
